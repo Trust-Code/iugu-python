@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'iugu'))
 from version import __version__
 
 setup(
-  name='iugu',
+  name='iugu-trustcode',
   version= __version__,
   author='Felipe Tomaz, Arthur Furlan',
   author_email='gmail@felipetomaz.com, afurlan@afurlan.org',
