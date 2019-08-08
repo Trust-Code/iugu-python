@@ -5,7 +5,7 @@ virtual_env:
   system_site_packages: true
 install:
 - pip install --upgrade pip
-- pip install requests
+- pip install requests pytest pytest-cov
 script: pytest --cov=iugu
 after_success: coveralls
 deploy:

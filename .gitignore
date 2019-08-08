@@ -5,3 +5,4 @@ MANIFEST
 .*.sw*
 .idea/
 .env/
+.coverage
